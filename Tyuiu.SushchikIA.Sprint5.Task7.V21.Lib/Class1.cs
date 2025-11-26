@@ -5,7 +5,7 @@ namespace Tyuiu.SushchikIA.Sprint5.Task7.V21.Lib
     {
         public string LoadDataAndSave(string path)
         {
-            return "38fj3";
+            return "Стока и точка";
         }
     }
 }
