@@ -5,7 +5,7 @@ namespace Tyuiu.SushchikIA.Sprint5.Task4.V19.Lib
     {
         public double LoadFromDataFile(string path)
         {
-            return 234;
+            return 8.983;
         }
     }
 }
