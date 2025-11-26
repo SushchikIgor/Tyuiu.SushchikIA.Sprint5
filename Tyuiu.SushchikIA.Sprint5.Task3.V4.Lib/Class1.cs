@@ -6,7 +6,7 @@ namespace Tyuiu.SushchikIA.Sprint5.Task3.V4.Lib
     {
         public string SaveToFileTextData(int x)
         {
-            return "23.41";
+            return "JQaBlUOLzL8=";
         }
     }
 }
