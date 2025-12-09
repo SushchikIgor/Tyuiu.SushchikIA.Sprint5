@@ -3,7 +3,7 @@
 DataService ds = new DataService();
 Console.Title = "Спринт #5 | Выполнил: Сущик И.А. | ПИНб-25-1";
 Console.WriteLine("***************************************************************************");
-Console.WriteLine("* Спринт #5                                                               *");
+Console.WriteLine("* Спринт #5               xq                                                *");
 Console.WriteLine("* Тема: Операции сравнения в C#                                           *");
 Console.WriteLine("* Задание #Task2                                                              *");
 Console.WriteLine("* Вариант #23                                                             *");
