@@ -7,7 +7,8 @@ namespace Tyuiu.SushchikIA.Sprint5.Task3.V4.Lib
         public string SaveToFileTextData(int x)
         {
 
-            double y = Math.Log((x + 1)/(x + 2), Math.E);
+            double y = Math.Log(0.80, 2.71828);
+
             return Math.Round(y, 3).ToString();
         }
     }
