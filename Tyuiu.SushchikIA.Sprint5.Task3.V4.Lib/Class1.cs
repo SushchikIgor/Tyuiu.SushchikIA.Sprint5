@@ -6,7 +6,9 @@ namespace Tyuiu.SushchikIA.Sprint5.Task3.V4.Lib
     {
         public string SaveToFileTextData(int x)
         {
-            return "JQaBlUOLzL8=";
+
+            double y = Math.Log((x + 1)/(x + 2), Math.E);
+            return Math.Round(y, 3).ToString();
         }
     }
 }

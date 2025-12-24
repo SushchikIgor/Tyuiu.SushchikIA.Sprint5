@@ -16,6 +16,6 @@ Console.WriteLine("* РЕЗУЛЬТАТ:                                        
 Console.WriteLine("***************************************************************************");
 
 
-string res = ds.SaveToFileTextData(43);
+string res = ds.SaveToFileTextData(3);
 
 Console.WriteLine(res);
