@@ -7,9 +7,13 @@ namespace Tyuiu.SushchikIA.Sprint5.Task3.V4.Lib
         public string SaveToFileTextData(int x)
         {
 
-            double y = Math.Log(0.80, 2.71828);
+            double y = Math.Round(Math.Log(0.80, 2.71828), 3);
+            //Console.WriteLine(y);
+            byte[] bytes = BitConverter.GetBytes(y);
 
-            return Math.Round(y, 3).ToString();
+            string base64String = Convert.ToBase64String(bytes);
+
+            return base64String;
         }
     }
 }
