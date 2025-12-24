@@ -9,11 +9,11 @@ namespace Tyuiu.SushchikIA.Sprint5.Task3.V4.Lib
 
             double y = Math.Round(Math.Log(0.80, 2.71828), 3);
 
-            using (BinaryWriter writer = new BinaryWriter(File.Open("OutPutFileTask3.bin", FileMode.Create)))
-            {
-                // Записывает 8 байт напрямую
-                writer.Write(y);
-            }
+            //using (BinaryWriter writer = new BinaryWriter(File.Open("OutPutFileTask3.bin", FileMode.Create)))
+            //{
+            //    // Записывает 8 байт напрямую
+            //    writer.Write(y);
+            //}
             //Console.WriteLine(y);
             byte[] bytes = BitConverter.GetBytes(y);
 
